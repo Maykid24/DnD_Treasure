@@ -1,4 +1,5 @@
 import random
+from DnD_Treasure.dice_roll_fundamentals.random_dice_roll import random_gem_roll
 
 
 def all_random_roll(*args):
@@ -113,4 +114,10 @@ def if_else_test():
         print("70 to 100")
 
 
-if_else_test()
+def gem_random_roll(gem):
+    gem_sum_roll = 0
+    print(gem)
+    for i in range(int(gem[0])):
+        roll = random.randint(1, int(gem[2]))
+        gem_sum_roll = gem_sum_roll + roll
+    print(gem_sum_roll)

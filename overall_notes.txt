@@ -1,0 +1,13 @@
+**To serve as taking notes throughout the process of what needs to be done or created in order to fulfill this app**
+
+- Need a sheet specifically for the Magic Item Tables along with the conditions of the rolls that equal magic items
+    * In Progress *
+
+- Need to also look at other DnD books to verify if there are any other Magic Random Item rolls to include in additional
+    sheets or organization
+
+
+- End result:
+    Would have a main page asking what the user wants to do for individual hordes/group hordes or just random item
+        events that include money/magic items at random of anything magic related in all DnD books
+

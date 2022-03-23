@@ -9,6 +9,17 @@ def d100_dice_roll():
     print(roll)
 
 
+def random_gem_roll(gem):
+    gem_sum_roll = 0
+    if gem != "":
+        for i in range(int(gem[0])):
+            roll = random.randint(1, int(gem[2]))
+            gem_sum_roll = gem_sum_roll + roll
+        print(f"Gems:", gem_sum_roll)
+    else:
+        print("Nothing")
+
+
 class RollRandomMoney:
 
     def __init__(self,
